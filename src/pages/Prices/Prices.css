@@ -1,0 +1,30 @@
+.prices__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 60%;
+}
+
+article>div {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    color: var(--color-primary-variant);
+}
+
+h4 {
+    color: var(--color-primary)
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+hr {
+    background-color: var(--color-primary);
+    border-top: 1px dashed var(--color-bg)
+}
